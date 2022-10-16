@@ -21,9 +21,11 @@ body {
 
 .wrapper {
     width: 1400px;
+    height: 960px;
     margin: auto;
     color: white;
     font-family: sans-serif;
+    position: relative;
 }
 
 .navLogo {
@@ -54,4 +56,27 @@ body {
     font-size: 30px;
     margin-top: 15px;
     margin-right: 80px;
+}
+
+.grandOpening {
+    background: #ffba00;
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    bottom: 360px;
+    font-size: 90px;
+}
+
+.grandOpening>h1 {
+    font-size: 100px;
+    text-shadow:  1px 1px 0px white;
+    margin-left: 170px;
+    margin-top: 20px;
+    line-height: 120px;
+
+} /* make font */
+
+.opening {
+    text-shadow: none;
+    font-size: 90px;
 }
