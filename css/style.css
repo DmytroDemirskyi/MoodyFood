@@ -162,9 +162,28 @@ header {
     background: #ffffff;
 }
 
+.wrapperWhiteB {
+    border: 1px solid red;
+    width: 1100px;
+    margin: auto;
+    color: black;
+}
+
 .whiteB {
-    border: 1px solid black;
+    border: 1px solid red;
     height: 130px;
     width: 275px;
     display: inline-block;
+    margin-top: 125px;
+    margin-right: 125px;
+    color: black;
 }
+
+.whiteB>h2 {
+    color: #ffba00;
+}
+
+.whiteB3 {
+    margin: 0px;
+}
+
