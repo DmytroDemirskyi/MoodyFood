@@ -430,6 +430,50 @@ header {
 
 .pizzeriaContact>h2 {
     text-align: center;
-    padding-top: 120px;
-    color:#ffba00;
+    padding-top: 80px;
+    color:#ffffff;
+}
+
+.commentary {
+    width: 350px;
+    height: 280px;
+    position: absolute;
+    top: 180px;
+    left: 370px;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.contactIconsPizzeria {
+    width: 350px;
+    height: 280px;
+    position: absolute;
+    top: 180px;
+    left: 850px;
+    font-size: 25px;
+}
+
+.contactIconsPizzeria>img {
+    margin-top: 20px;
+    margin-right: 15px;
+}
+
+.contactIconsPizzeria>a {
+    color: #ffba00;
+}
+
+.pName {
+    text-align: right;
+}
+
+.askHere {
+    font-size: 25px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+
+footer {
+    width: 100%;
+    height: 320px;
+    background: #483500;
 }
