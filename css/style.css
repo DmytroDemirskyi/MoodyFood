@@ -396,3 +396,40 @@ header {
     margin-left: 30px;
     margin-top: 60px;
 }
+
+.galleryBlock {
+    height: 220px;
+    width: 100%;
+    position: relative;
+}
+
+.galleryBlock>h2 {
+    color:#ffba00;
+    text-align: center;
+    padding-top: 140px;
+}
+
+.orangeLane {
+    position: absolute;
+    width: 250px;
+    height: 100%;
+    left: 300px;
+    background:#ffba00;
+}
+
+.galleryPhoto>img {
+    margin: 0px;
+    padding: 0px;
+}
+
+.pizzeriaContact {
+    width: 100%;
+    height: 550px;
+    position: relative;
+}
+
+.pizzeriaContact>h2 {
+    text-align: center;
+    padding-top: 120px;
+    color:#ffba00;
+}
