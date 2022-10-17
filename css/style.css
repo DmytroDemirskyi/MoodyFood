@@ -474,6 +474,38 @@ header {
 
 footer {
     width: 100%;
-    height: 320px;
+    height: 350px;
     background: #483500;
 }
+
+.aboutFooter {
+    width: 370px;
+    height: 180px;
+    margin-top: 70px;
+    margin-left: 185px;
+    margin-right: 120px;
+    float: left;
+}
+
+.aboutFooter>h2 {
+    margin-bottom: 50px;
+}
+
+.col {
+    width: 100px;
+    height: 180px;
+    display: inline-block;
+    margin-top: 70px;
+    padding-right: 120px;
+}
+
+
+.col>h3 {
+    margin-bottom: 55px;
+}
+
+.colList>li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
